@@ -13,3 +13,10 @@
 //// Расшифрование
 //string decryptedText = aes.Decrypt(Convert.FromBase64String(encryptedBase64));
 //Console.WriteLine($"Расшифрованный текст: {decryptedText}");
+
+
+
+FileCript fileCript = new FileCript();
+
+fileCript.CreateFileCription("C:\\Users\\neroi\\Downloads\\Telegram Desktop\\firmware (4).hex",
+    "C:\\Users\\neroi\\Desktop");

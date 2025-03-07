@@ -10,8 +10,7 @@ namespace AES256
     internal class EncryptionAndDecryption
     {
         // Статичный 256-битный (32-байтовый) ключ
-        private readonly byte[] Key = Encoding.UTF8.GetBytes("0123456789ABCDEF0123456789ABCDEF"); // 32 байта
-                                                                                                         // Статичный IV (16 байт, но в реальных приложениях лучше использовать случайный IV)
+        private readonly byte[] Key = Encoding.UTF8.GetBytes("0123456789ABCDEF0123456789ABCDEF"); // 32 байта                           
         private readonly byte[] IV = Encoding.UTF8.GetBytes("ABCDEF0123456789"); // 16 байт
 
 
