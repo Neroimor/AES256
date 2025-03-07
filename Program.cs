@@ -18,5 +18,8 @@
 
 FileCript fileCript = new FileCript();
 
-fileCript.CreateFileCription("C:\\Users\\neroi\\Downloads\\Telegram Desktop\\firmware (4).hex",
+fileCript.CreateFileCription("C:\\Users\\neroi\\Downloads\\Telegram Desktop\\test.hex",
+    "C:\\Users\\neroi\\Desktop");
+
+fileCript.CreateDecriptionFile("C:\\Users\\neroi\\Desktop\\Cription_test.hex",
     "C:\\Users\\neroi\\Desktop");
